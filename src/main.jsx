@@ -9,6 +9,7 @@ import Root from './Root/Root';
 import Home from './components/Home';
 import Carousel from './carousels/Carousel';
 import Buttons from './buttons/Buttons';
+import Cards from './cards/Cards';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: '/buttons',
         element: <Buttons />
+      },
+      {
+        path: '/cards',
+        element: <Cards />
       }
     ]
   },
